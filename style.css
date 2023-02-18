@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./nikhil-kumar-JdPHvI7VF0o-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 100vh;
+    /* border: 2px dotted lime; */
+    padding: 0;
+}
+
+.location-container {
+    margin: 30px 0 0 100px;
+    padding-top: 8px;
+    width: 500px;
+    height: 500px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 0 10px rgb(87, 85, 85);
+    /* background-color: rgb(162, 125, 152); */
+    backdrop-filter: blur(20px);
+    /* border: 2px dotted purple; */
+}
+
+
+.location {
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgb(61, 59, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:  0 20px 20px 0;
+    height: 350px;
+    width: 490px;
+    margin: 30px 30px 0 37px;
+    color: black;
+    background-color: rgb(194, 162, 185);
+    background-color: rgb(213, 175, 203);
+    /* border: 2px dotted red; */
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2 {
+    font-size: 40px;
+}
+
+.outer-text {
+    /* border: 2px dotted rgb(121, 38, 52); */
+    text-align: center;
+    padding-top: 30px;
+}
+
+.date {
+    padding: 20px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+    /* border: 2px dotted red; */
+}
+
+.weather-title {
+    font-size: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    /* border: 2px dotted red; */
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+.weather-info-img {
+    width: 25px;
+}
+
+.weather-icon {
+    display:inline;
+    align-self: normal;
+    width: 70px;
+    padding: 0;
+    margin: 0;
+    /* border: 2px dotted red; */
+}
+
